@@ -1,0 +1,40 @@
+            % KEGIATAN SATU 
+
+Graph adalah struktur data yang terdiri dari kumpulan simpul (node) yang terhubung melalui edge (sisi). Graph digunakan untuk merepresentasikan hubungan antara objek atau entitas dalam bentuk jaringan atau relasi. Graph memiliki banyak aplikasi, termasuk dalam pemodelan jaringan sosial, algoritma pencarian, pemodelan rute, dan banyak lagi.
+
+Perbedaan antara struktur data Tree dan struktur data Graph adalah sebagai berikut:
+
+Hierarki: Tree adalah struktur data hierarkis yang terdiri dari simpul (node) yang terhubung satu arah, dimulai dari satu simpul yang disebut root. Setiap simpul dapat memiliki anak simpul, tetapi tidak memiliki kembali ke simpul di atasnya dalam hirarki. Graph, di sisi lain, tidak memiliki batasan hierarki seperti Tree. Node dalam Graph dapat saling terhubung secara bebas tanpa batasan hierarki.
+
+Siklus: Tree tidak mengizinkan adanya siklus, yang berarti tidak ada jalur kembali ke simpul yang sebelumnya telah dilewati. Graph, di sisi lain, dapat memiliki siklus, artinya ada jalur yang membentuk lingkaran dengan kembali ke simpul yang sebelumnya telah dilewati.
+
+Edge: Pada Tree, setiap simpul (kecuali root) memiliki tepat satu edge yang menghubungkannya ke simpul di atasnya. Pada Graph, setiap simpul dapat memiliki beberapa edge yang menghubungkannya ke simpul lainnya. Graph dapat memiliki beberapa edge yang menghubungkan dua simpul yang sama (multi-edge) atau memiliki edge yang menghubungkan simpul dengan dirinya sendiri (self-loop), sedangkan Tree tidak memiliki multi-edge atau self-loop.
+
+Penelusuran: Pada Tree, penelusuran biasanya dilakukan menggunakan metode seperti Pre-order, In-order, atau Post-order traversal. Graph, di sisi lain, menggunakan algoritma penelusuran seperti DFS (Depth First Search) atau BFS (Breadth First Search) untuk melintasi simpul-simpulnya.
+
+Representasi: Tree dapat direpresentasikan menggunakan struktur data seperti linked list atau array. Graph dapat direpresentasikan menggunakan beberapa metode, seperti adjacency list (daftar tetangga) atau adjacency matrix (matriks ketetanggaan).
+
+Meskipun Tree dan Graph memiliki beberapa perbedaan, keduanya adalah struktur data yang penting dan memiliki aplikasi yang berbeda sesuai dengan kebutuhan pemodelan dan algoritma yang diterapkan.
+
+
+% KEGIATAN DUA
+a. Notasi dari graph diatas ( G=,V,E- )
+% JAWAB :
+g = A, B, .... Z-
+v = (A,B); (B,C); ......(Y,Z)
+
+b. Jumlah in-degree, jumlah out-degree, dan jumlah Edge
+% JAWAB : 
+IN-degree   =
+OUT-degree  =
+JML edge    =
+            (tak berarah)>>>>undirected : n(n-1)/2
+            (berarah)>>>direct : n(n-1)
+c. Adjacency Matriks dari gambar tersebut
+Adjacency Matriks pada graph merupakan representasi graph kedalam betuk matriks dengan 
+ordo (n x n). dan n adalah node
+% JAWAB :
+
+d. Tentukan weight pada tiap-tipa node
+% JAWAB : 
+dapat dilihat dari garis antar node yang memiliki nilai
